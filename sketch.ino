@@ -184,7 +184,7 @@ void loop() {
     lcd.setCursor(0,2);
     lcd.print("____________________");
     lcd.setCursor(0,3);
-    lcd.print("push: error");
+    lcd.print("push: error "+String(x));
   }
 
   
